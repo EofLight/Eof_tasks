@@ -35,14 +35,17 @@
           eveniet temporibus.
         </p>
         <button class="btn" id="openOverlay">открыть</button>
+    </div>
+    <script src="./mod.js"></script>
+
+    <div class="blocks-coloring-container">
+      <div class="controls">
+        <input type="number" min="0" class="quantity-selector" />
+        <input type="color" class="color-selector" />
       </div>
-      <script type="html/template" id="overlayTemplate">
-        <div class="mod__container">
-          <a class="close" href="#">x</a>
-          <div class="content"></div>
-        </div>
-      </script>
-      <script src="./mod.js"></script>
-    
+      <div class="blocks"></div>
+    </div>
+    <script src="blocks.js"></script>
+
   </body>
 </html>

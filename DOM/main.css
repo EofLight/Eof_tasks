@@ -126,10 +126,6 @@ body, html {
   text-decoration: none;
 }
 
-.close:hover {
-  background: #d33;
-}
-
 .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -153,6 +149,36 @@ body, html {
   cursor: pointer;
 }
 
-.btn:hover {
-  opacity: 0.8;
+.controls {
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.quantity-selector {
+  margin-right: 10px;
+}
+
+.blocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.blocks__item {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border: 1px solid black;
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
